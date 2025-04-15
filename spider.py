@@ -8,10 +8,10 @@ import sys
 
 # 要改
 headers = {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+    'User-Agent': '',
     'Referer': 'https://www.bilibili.com/',
     'Origin': 'https://www.bilibili.com',
-    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+    'Accept': '',
     'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8',
     'Accept-Encoding': 'gzip, deflate, br, zstd',
     'Connection': 'keep-alive',
@@ -21,7 +21,7 @@ headers = {
 
 #要改
 # 如果需要登录才能访问的弹幕，添加你的 Cookie
-COOKIE = "buvid4=83BCF525-C70C-8E50-F115-3E13AC3E962965873-024022410-pQf0mh3Ltj8z%2FyDRNGE9YQ%3D%3D; enable_web_push=DISABLE; header_theme_version=CLOSE; buvid_fp_plain=undefined; CURRENT_BLACKGAP=0; FEED_LIVE_VERSION=V_WATCHLATER_PIP_WINDOW3; hit-dyn-v2=1; fingerprint=77359313eb2f7eda225579542c5e4cb2; DedeUserID=487760599; DedeUserID__ckMd5=b3c08241a1013a63; buvid_fp=77359313eb2f7eda225579542c5e4cb2; _uuid=744E7561-3F5F-44D8-51061-66FDEC4BE36395389infoc; enable_feed_channel=ENABLE; SESSDATA=ff2132c0%2C1758556641%2Cd7174%2A32CjCWAzrs_jSqVlXTC12buru6cP6s5bUE7L_Eo6HoJiEXNDindFiVcIBOaYwvtz8yCJ8SVkN0V1UwaEsybjM3bzdSVXFjakIxRW8yNWpNVnNqWFprMXkzN1FDZ2VIUXhxZVlhWFFPNkVJal95RFRtakdjdTFKZ3h3dWE2ejZyY1A4Q1pKenNLbl9nIIEC; bili_jct=cd6b998b216c5f38f1bd8b1ca566cc33; buvid3=208A6806-C341-46B7-8AD5-9368554986FD78260infoc; b_nut=1743332773; rpdid=0z9ZwfQfjx|eZ0BaYIE|1nP|3w1TYQTt; CURRENT_QUALITY=112; bili_ticket=eyJhbGciOiJIUzI1NiIsImtpZCI6InMwMyIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3NDQ4MTI1MTMsImlhdCI6MTc0NDU1MzI1MywicGx0IjotMX0.0kL2LFtCT3dyO8NlgevHq3yis3uWU_jeog2mI9DaZdw; bili_ticket_expires=1744812453; bsource=search_bing; bmg_af_switch=1; bmg_src_def_domain=i0.hdslb.com; sid=8s8exskf; CURRENT_FNVAL=2000; bp_t_offset_487760599=1056012018613485568; PVID=2; b_lsid=1FDF28A2_19639272AD3; home_feed_column=4; browser_resolution=888-941"
+COOKIE = ""
 
 def get_cid(bvid):
     """获取视频CID"""
